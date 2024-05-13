@@ -11,7 +11,8 @@ license=('BSD')
 depends=('qt6-base'
     'libaccounts-qt6'
     'mkcal6'
-    'kcalendarcore>=6.0')
+    'kcalendarcore>=6.0'
+    'qt6-declarative')
 source=("${url}/archive/refs/tags/$pkgver.tar.gz"
     "0001-fix_with_qt6.patch")
 sha256sums=('27fa9f1580bea43e4feafb6512a2979a67d5385ab5081a205ce1b446bc8a5655'
